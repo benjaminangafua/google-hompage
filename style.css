@@ -27,7 +27,7 @@ nav ul {
     position: fixed;
     top: 0;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     width: 100%;
     overflow: hidden;
 }
@@ -124,11 +124,13 @@ footer li a {
 }
 
 footer {
+    padding: 10px;
     position: absolute;
     bottom: 0;
     right: 0;
     left: 0;
     height: [footer-height];
+    background-color: rgb(233, 237, 241);
 }
 
 @media (max-width: 972px) {}
