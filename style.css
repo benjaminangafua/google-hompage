@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    min-height: 100%;
+    padding-bottom: [footer-height];
+}
+
+ul {
+    display: inline;
+}
+
+li {
+    list-style: none;
+}
+
+nav li a {
+    padding: 14px 0px 14px 10px;
+}
+
+nav ul {
+    position: fixed;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input::-webkit-input-placeholder {
+    font-family: 'Material Icons Outlined';
+    font-size: 1em;
+}
+
+input::-moz-placeholder {
+    font-family: 'Material Icons Outlined';
+    font-size: 1em;
+}
+
+input:-ms-input-placeholder {
+    font-family: 'Material Icons Outlined';
+    font-size: 1em;
+}
+
+input:-moz-placeholder {
+    font-family: 'Material Icons Outlined';
+    font-size: 1em;
+}
+
+input[placeholder="search"] {
+    text-indent: 0px !important;
+}
+
+input[type="search"] {
+    min-height: 10%;
+    min-width: 100%;
+    font-size: large;
+    border-radius: 15px;
+    border: solid 1px rgb(194, 196, 196);
+    padding: 0.5em 1em;
+}
+
+input:hover {
+    box-shadow: 3px 2px 2px 1px rgb(186, 186, 187);
+}
+
+input[type="search"]:focus {
+    outline: none;
+    box-shadow: 3px 2px 2px 1px rgb(186, 186, 187);
+}
+
+.float-r,
+nav li {
+    float: right;
+}
+
+.float-l {
+    float: left;
+}
+
+main {
+    text-align: center;
+    margin: 5% 30%;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    text-align: center;
+}
+
+.search-txt {
+    background-color: rgb(241, 243, 243);
+    margin-top: 2%;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+.search-txt:hover {
+    box-shadow: 5px;
+    background-color: rgb(218, 221, 221);
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+footer li a {
+    padding: 14px 0px 14px 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: [footer-height];
+}
+
+@media (max-width: 972px) {}
